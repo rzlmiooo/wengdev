@@ -1,0 +1,198 @@
+body {
+    margin: 0% auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b1b1b;
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding: 1em 0 1em 1em;
+    background-color: #444444;
+    text-decoration: none;
+    opacity: 80%;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #d6eff4;
+}
+
+.logo span {
+    color: #ffff00;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tombol {
+    display: none;
+    color: #d6eff4;
+    font-size: 1.4rem;
+}
+
+.tombol:hover {
+    cursor: pointer;
+}
+
+.menu {
+    font-weight: 700;
+    margin: 0%;
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.menu li:hover {
+    border-radius: 1em;
+    color: #d6eff4;
+    background-color: #ffff00;
+    opacity: 20%;
+    z-index: 1;
+}
+
+.menu li {
+    padding-left: 0%;
+    margin-right: 1em;
+}
+
+.menu li a {
+    padding: 1em;
+    color: #d6eff4;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu li a span {
+    padding: 1em;
+    margin: 0;
+}
+
+.malas {
+    margin: 5rem;
+    padding: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffff00;
+}
+
+.malas img {
+    border-radius: 1rem;
+    width: 50%;
+    height: 50%;
+}
+
+.malas2 a {
+    margin: 4px 2px;
+    padding: 15px 32px;
+    border-radius: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 1.4em;  
+    color: #444444;
+    background-color: #ffff00;
+}
+
+.desc {
+    margin: 10em 1em;
+    padding: 1em;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #ffff00;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+  
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+  
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+  
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+  
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
